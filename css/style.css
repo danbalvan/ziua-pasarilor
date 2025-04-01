@@ -1,0 +1,66 @@
+/* Stilizare generală */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stil pentru header - verde mai închis */
+header {
+    background-color: #388E3C;  /* Verde mai închis */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Stil pentru titlul principal */
+h1 {
+    margin: 0;
+}
+
+/* Stil pentru secțiunea de introducere - verde mai deschis */
+.intro {
+    background-color: #81C784;  /* Verde mai deschis */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Stil pentru cuprins */
+.intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Stil pentru lista de păsări */
+.birds-list {
+    padding: 20px;
+    margin: 20px;
+}
+
+.birds-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.birds-list li {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.birds-list img {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+/* Stil pentru footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
